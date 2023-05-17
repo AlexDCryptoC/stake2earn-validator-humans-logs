@@ -1,0 +1,97 @@
+# stake2earn-validator-humans-logs
+
+RESTART 1 - 17.05.2023 - 11:48AM
+Ubuntu-2004-focal-amd64-base /var/log/humans # > /var/log/humans/humans_error.log && sudo systemctl restart humans && sudo journalctl -u humans -f
+
+May 17 11:48:47 Ubuntu-2004-focal-amd64-base systemd[1]: Stopping humans daemon...
+May 17 11:48:47 Ubuntu-2004-focal-amd64-base systemd[1]: humans.service: Succeeded.
+May 17 11:48:47 Ubuntu-2004-focal-amd64-base systemd[1]: Stopped humans daemon.
+May 17 11:48:47 Ubuntu-2004-focal-amd64-base systemd[1]: Started humans daemon.
+
+[90m11:48AM[0m [32mINF[0m Unlocking keyring
+[90m11:48AM[0m [32mINF[0m starting ABCI with Tendermint
+[90m11:48AM[0m [32mINF[0m starting node with ABCI Tendermint in-process
+[90m11:48AM[0m [32mINF[0m service start [36mimpl=[0mmultiAppConn [36mmodule=[0mproxy [36mmsg=[0m{} [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m service start [36mconnection=[0mquery [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m service start [36mconnection=[0msnapshot [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m service start [36mconnection=[0mmempool [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m service start [36mconnection=[0mconsensus [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m service start [36mimpl=[0mEventBus [36mmodule=[0mevents [36mmsg=[0m{} [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m service start [36mimpl=[0mPubSub [36mmodule=[0mpubsub [36mmsg=[0m{} [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m service start [36mimpl=[0mIndexerService [36mmodule=[0mtxindex [36mmsg=[0m{} [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m ABCI Handshake App Info [36mhash=[0m")ï¿½ï¿½\tsEcÃ€)~p%ï¿½ï¿½ï¿½ï¿½R\aï¿½\x02\x13/h\x02ï¿½ï¿½Û»ï¿½ï¿½ï¿½" [36mheight=[0m84876 [36mmodule=[0mconsensus [36mprotocol-version=[0m0 [36mserver=[0mnode [36msoftware-version=[0m0.2.1
+[90m11:48AM[0m [32mINF[0m ABCI Replay Blocks [36mappHeight=[0m84876 [36mmodule=[0mconsensus [36mserver=[0mnode [36mstateHeight=[0m84876 [36mstoreHeight=[0m84876
+[90m11:48AM[0m [32mINF[0m Completed ABCI Handshake - CometBFT and App are synced [36mappHash=[0m")ï¿½ï¿½\tsEcÃ€)~p%ï¿½ï¿½ï¿½ï¿½R\aï¿½\x02\x13/h\x02ï¿½ï¿½Û»ï¿½ï¿½ï¿½" [36mappHeight=[0m84876 [36mmodule=[0mconsensus [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m Version info [36mabci=[0m0.17.0 [36mblock=[0m11 [36mcmtbft_version=[0m0.34.27 [36mcommit_hash=[0m [36mp2p=[0m8 [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m This node is a validator [36maddr=[0m9AEB6D1075CD5D44705F003BF7D115215016DDF0 [36mmodule=[0mconsensus [36mpubKey=[0mvvsAXk0HQyQEPZdnTH4wh4YmLDFZfIJW8zb+D0GxbuE= [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m P2P Node ID [36mID=[0m459bcaea161d20cddcdead811d282bd495446cbb [36mfile=[0m/root/.humansd/config/node_key.json [36mmodule=[0mp2p [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m Adding persistent peers [36maddrs=[0m["49f2ffa9786690548a1094b620d869ed72a33f8c@141.95.99.214:14356","babc3f3f7804933265ec9c40ad94f4da8e9e0017@testnet-seed.rhinostake.com:18456","4762fa22edb91acd78010026f8da5fb71e174acb@142.165.207.19:36656","2ce2d45c4e434ceb2a0a662549a629e08c53a106@65.109.84.103:26656","2f6cc8b0b255745d71c358351ddde1faa350b0be@95.217.200.36:26656"] [36mmodule=[0mp2p [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m Adding unconditional peer ids [36mids=[0m[] [36mmodule=[0mp2p [36mserver=[0mnode
+[90m11:48AM[0m [32mINF[0m Add our address to book [36maddr=[0m{"id":"459bcaea161d20cddcdead811d282bd495446cbb","ip":"0.0.0.0","port":26656}
+
+
+RESTART 2 - 17.05.2023 - 13:54AM
+Ubuntu-2004-focal-amd64-base /var/log/humans # > /var/log/humans/humans_error.log && sudo systemctl restart humans && sudo journalctl -u humans -f
+
+May 17 13:52:55 Ubuntu-2004-focal-amd64-base systemd[1]: Stopping humans daemon...
+May 17 13:52:55 Ubuntu-2004-focal-amd64-base systemd[1]: humans.service: Succeeded.
+May 17 13:52:55 Ubuntu-2004-focal-amd64-base systemd[1]: Stopped humans daemon.
+May 17 13:54:44 Ubuntu-2004-focal-amd64-base systemd[1]: Started humans daemon.
+
+[90m1:54PM[0m [32mINF[0m Unlocking keyring
+[90m1:54PM[0m [32mINF[0m starting ABCI with Tendermint
+[90m1:54PM[0m [32mINF[0m starting node with ABCI Tendermint in-process
+[90m1:54PM[0m [32mINF[0m service start [36mimpl=[0mmultiAppConn [36mmodule=[0mproxy [36mmsg=[0m{} [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m service start [36mconnection=[0mquery [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m service start [36mconnection=[0msnapshot [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m service start [36mconnection=[0mmempool [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m service start [36mconnection=[0mconsensus [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m service start [36mimpl=[0mEventBus [36mmodule=[0mevents [36mmsg=[0m{} [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m service start [36mimpl=[0mPubSub [36mmodule=[0mpubsub [36mmsg=[0m{} [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m service start [36mimpl=[0mIndexerService [36mmodule=[0mtxindex [36mmsg=[0m{} [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m ABCI Handshake App Info [36mhash=[0m"ï¿½ï¿½ï¿½aï¿½\x10bï¿½IßŽï¿½%,wSï¿½n\x7f-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û¶ï¿½9" [36mheight=[0m86085 [36mmodule=[0mconsensus [36mprotocol-version=[0m0 [36mserver=[0mnode [36msoftware-version=[0m0.2.1
+[90m1:54PM[0m [32mINF[0m ABCI Replay Blocks [36mappHeight=[0m86085 [36mmodule=[0mconsensus [36mserver=[0mnode [36mstateHeight=[0m86085 [36mstoreHeight=[0m86085
+[90m1:54PM[0m [32mINF[0m Completed ABCI Handshake - CometBFT and App are synced [36mappHash=[0m"ï¿½ï¿½ï¿½aï¿½\x10bï¿½IßŽï¿½%,wSï¿½n\x7f-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û¶ï¿½9" [36mappHeight=[0m86085 [36mmodule=[0mconsensus [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m Version info [36mabci=[0m0.17.0 [36mblock=[0m11 [36mcmtbft_version=[0m0.34.27 [36mcommit_hash=[0m [36mp2p=[0m8 [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m This node is a validator [36maddr=[0m9AEB6D1075CD5D44705F003BF7D115215016DDF0 [36mmodule=[0mconsensus [36mpubKey=[0mvvsAXk0HQyQEPZdnTH4wh4YmLDFZfIJW8zb+D0GxbuE= [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m P2P Node ID [36mID=[0m459bcaea161d20cddcdead811d282bd495446cbb [36mfile=[0m/root/.humansd/config/node_key.json [36mmodule=[0mp2p [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m Adding persistent peers [36maddrs=[0m["49f2ffa9786690548a1094b620d869ed72a33f8c@141.95.99.214:14356","babc3f3f7804933265ec9c40ad94f4da8e9e0017@testnet-seed.rhinostake.com:18456","4762fa22edb91acd78010026f8da5fb71e174acb@142.165.207.19:36656","2ce2d45c4e434ceb2a0a662549a629e08c53a106@65.109.84.103:26656","2f6cc8b0b255745d71c358351ddde1faa350b0be@95.217.200.36:26656"] [36mmodule=[0mp2p [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m Adding unconditional peer ids [36mids=[0m[] [36mmodule=[0mp2p [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m Add our address to book [36maddr=[0m{"id":"459bcaea161d20cddcdead811d282bd495446cbb","ip":"0.0.0.0","port":26656} [36mbook=[0m/root/.humansd/config/addrbook.json [36mmodule=[0mp2p [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m service start [36mimpl=[0mNode [36mmsg=[0m{} [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m Starting pprof server [36mladdr=[0mlocalhost:6060 [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m serve [36mmodule=[0mrpc-server [36mmsg=[0m{} [36mserver=[0mnode
+[90m1:54PM[0m [32mINF[0m service start [36mimpl=[0m"P2P Switch" [36mmodule=[0mp2p [36mmsg=[0m{} [36mserver=[0mnode
+
+
+RESTART 3 - 17.05.2023 - 21:18PM
+Ubuntu-2004-focal-amd64-base /var/log/humans # sudo systemctl restart humans && sudo journalctl -u humans -f
+
+ay 17 21:18:20 Ubuntu-2004-focal-amd64-base systemd[1]: Stopping humans daemon...
+May 17 21:18:20 Ubuntu-2004-focal-amd64-base systemd[1]: humans.service: Succeeded.
+May 17 21:18:20 Ubuntu-2004-focal-amd64-base systemd[1]: Stopped humans daemon.
+May 17 21:18:51 Ubuntu-2004-focal-amd64-base systemd[1]: Started humans daemon.
+
+[90m9:18PM[0m [32mINF[0m Unlocking keyring
+[90m9:18PM[0m [32mINF[0m starting ABCI with Tendermint
+[90m9:18PM[0m [32mINF[0m starting node with ABCI Tendermint in-process
+[90m9:18PM[0m [32mINF[0m service start [36mimpl=[0mmultiAppConn [36mmodule=[0mproxy [36mmsg=[0m{} [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m service start [36mconnection=[0mquery [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m service start [36mconnection=[0msnapshot [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m service start [36mconnection=[0mmempool [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m service start [36mconnection=[0mconsensus [36mimpl=[0mlocalClient [36mmodule=[0mabci-client [36mmsg=[0m{} [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m service start [36mimpl=[0mEventBus [36mmodule=[0mevents [36mmsg=[0m{} [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m service start [36mimpl=[0mPubSub [36mmodule=[0mpubsub [36mmsg=[0m{} [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m service start [36mimpl=[0mIndexerService [36mmodule=[0mtxindex [36mmsg=[0m{} [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m ABCI Handshake App Info [36mhash=[0m"ï¿½ï¿½ï¿½ï¿½1ï¿½Fï¿½\x06]\vÜ£aÛŠRï¿½ï¿½ï¿½R\"ï¿½\tEï¿½$\x11ï¿½oV[" [36mheight=[0m90313 [36mmodule=[0mconsensus [36mprotocol-version=[0m0 [36mserver=[0mnode [36msoftware-version=[0m0.2.1
+[90m9:18PM[0m [32mINF[0m ABCI Replay Blocks [36mappHeight=[0m90313 [36mmodule=[0mconsensus [36mserver=[0mnode [36mstateHeight=[0m90313 [36mstoreHeight=[0m90313
+[90m9:18PM[0m [32mINF[0m Completed ABCI Handshake - CometBFT and App are synced [36mappHash=[0m"ï¿½ï¿½ï¿½ï¿½1ï¿½Fï¿½\x06]\vÜ£aÛŠRï¿½ï¿½ï¿½R\"ï¿½\tEï¿½$\x11ï¿½oV[" [36mappHeight=[0m90313 [36mmodule=[0mconsensus [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m Version info [36mabci=[0m0.17.0 [36mblock=[0m11 [36mcmtbft_version=[0m0.34.27 [36mcommit_hash=[0m [36mp2p=[0m8 [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m This node is a validator [36maddr=[0m9AEB6D1075CD5D44705F003BF7D115215016DDF0 [36mmodule=[0mconsensus [36mpubKey=[0mvvsAXk0HQyQEPZdnTH4wh4YmLDFZfIJW8zb+D0GxbuE= [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m P2P Node ID [36mID=[0m459bcaea161d20cddcdead811d282bd495446cbb [36mfile=[0m/root/.humansd/config/node_key.json [36mmodule=[0mp2p [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m Adding persistent peers [36maddrs=[0m["49f2ffa9786690548a1094b620d869ed72a33f8c@141.95.99.214:14356","4762fa22edb91acd78010026f8da5fb71e174acb@142.165.207.19:36656","2ce2d45c4e434ceb2a0a662549a629e08c53a106@65.109.84.103:26656","2f6cc8b0b255745d71c358351ddde1faa350b0be@95.217.200.36:26656"] [36mmodule=[0mp2p [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m Adding unconditional peer ids [36mids=[0m[] [36mmodule=[0mp2p [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m Add our address to book [36maddr=[0m{"id":"459bcaea161d20cddcdead811d282bd495446cbb","ip":"0.0.0.0","port":26656} [36mbook=[0m/root/.humansd/config/addrbook.json [36mmodule=[0mp2p [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m service start [36mimpl=[0mNode [36mmsg=[0m{} [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m Starting pprof server [36mladdr=[0mlocalhost:6060 [36mserver=[0mnode
+[90m9:18PM[0m [32mINF[0m serve [36mmodule=[0mrpc-server [36mmsg=[0m{} [36mserver=[0mnode
